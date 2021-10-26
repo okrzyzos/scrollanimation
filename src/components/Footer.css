@@ -1,0 +1,21 @@
+.footer{
+    height: 400px;
+    width: 100%;
+    background-image:url('../assets/footer.jpg');
+    color: white;
+    opacity: 0;
+    transform: scale(85%);
+    transition: 2s;
+    text-align: center;
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+
+
+}
+
+.slider--zoom{
+    opacity: 1;
+    transform: scale(100%);
+    transition: 2s;
+}
